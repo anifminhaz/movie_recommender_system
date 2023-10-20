@@ -138,4 +138,7 @@ dmypy.json
 configs/secrets.yaml
 
 # add your large pickle files
-artifacts/*.pkl
+*.pkl
+
+#keeping artifacts
+!artifacts/
